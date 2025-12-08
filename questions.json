@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "year": "2023",
+    "term": "Midterm",
+    "course_code": "IE-303",
+    "content": "# Soru 1: Modelleme\n\nAşağıdaki lineer programlama problemini çözünüz.\n\n```latex\n\\text{Maximize } Z = 3x_1 + 5x_2 \\\\\n\\text{Subject to:} \\\\\n\\begin{cases}\nx_1 \\le 4 \\\\\n2x_2 \\le 12\n\\end{cases}\n```"
+  },
+  {
+    "id": "2",
+    "year": "2024",
+    "term": "Final",
+    "course_code": "ME-212",
+    "content": "# Soru 2: Isı Transferi\n\nIsı iletim denklemi:\n\n```latex\nq = -k \\frac{dT}{dx}\n```\n\nBurada $k$ katsayıdır."
+  }
+]
