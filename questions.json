@@ -16,9 +16,9 @@
   {
     "id": "3",
     "year": "2017",
-    "term": "Bunu yazan tosun okuyana kosun.",
+    "term": "Midterm 1",
     "course_code": "MATH-119",
-    "content": "## Q.3 (10 pts) Continuity\n\nFind the number $a \\neq 0$ such that the function is **continuous everywhere**.\n\n```latex\nf(x) = \\begin{cases} \n\\frac{\\sin(ax)}{x} + \\cos x & \\text{for } x < 0 \\\\ \nx^2 + 3e^{2x} & \\text{for } x \\ge 0 \n\\end{cases}\n```"
+    "content": "## Q.3 (10 pts) Continuity\n\nFind the number $a \\neq 0$ such that the function is **continuous everywhere**.\n\n```latex\nf(x) = \\begin{cases} \\frac{\\sin(ax)}{x} + \\cos x & \\text{for } x < 0 \\\\\\\\ x^2 + 3e^{2x} & \\text{for } x \\ge 0 \\end{cases}\n```"
   },
   {
     "id": "4",
