@@ -1,17 +1,59 @@
 [
   {
-    "id": "1",
+    "id": "1-a",
     "year": "2017",
     "term": "Midterm 1",
     "course_code": "MATH-119",
-    "content": "## Q.1 (20 pts) Functions\n\nConsider the function defined below:\n\n```latex\ny = f(x) = e^{\\arctan(\\sqrt{1+\\ln x})}\n```\n\n**(a)** Find the **domain** of $f$.\n\n**(b)** Find $f'(x)$.\n\n**(c)** Show that the function is **invertible** on its domain.\n\n**(d)** Let $f^{-1}(x)$ be the inverse function. Find its derivative at $x = e^{\\pi/4}$:\n\n```latex\n\\frac{d}{dx}f^{-1}(x) \\bigg|_{x=e^{\\pi/4}}\n```"
+    "content": "## Q.1 (a) - Domain\n\nConsider the function defined below:\n\n```latex\ny = f(x) = e^{\\arctan(\\sqrt{1+\\ln x})}\n```\n\n**(a)** Find the **domain** of $f$."
   },
   {
-    "id": "2",
+    "id": "1-b",
     "year": "2017",
     "term": "Midterm 1",
     "course_code": "MATH-119",
-    "content": "## Q.2 (20 pts) Limits\n\nEvaluate the following limits or show they do NOT exist.\n\n**(a)** Limit at infinity:\n\n```latex\n\\lim_{x \\to \\infty} \\frac{2\\sin(x^5)}{x^4+1}\n```\n\n**(b)** Logarithmic limit:\n\n```latex\n\\lim_{x \\to \\infty} [\\ln(x^2+1) - \\ln(x^2-1)]\n```\n\n**(c)** One-sided limit:\n\n```latex\n\\lim_{x \\to 2} \\frac{x^2-4}{3x|x-2|}\n```\n\n**(d)** Limit involving derivatives definition:\n\n```latex\n\\lim_{x \\to 0} \\frac{\\cos x - e^x}{x}\n```"
+    "content": "## Q.1 (b) - Derivative\n\nConsider the function defined below:\n\n```latex\ny = f(x) = e^{\\arctan(\\sqrt{1+\\ln x})}\n```\n\n**(b)** Find $f'(x)$."
+  },
+  {
+    "id": "1-c",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.1 (c) - Invertibility\n\nConsider the function defined below:\n\n```latex\ny = f(x) = e^{\\arctan(\\sqrt{1+\\ln x})}\n```\n\n**(c)** Show that the function is **invertible** on its domain."
+  },
+  {
+    "id": "1-d",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.1 (d) - Inverse Derivative\n\nConsider the function defined below:\n\n```latex\ny = f(x) = e^{\\arctan(\\sqrt{1+\\ln x})}\n```\n\n**(d)** Let $f^{-1}(x)$ be the inverse function. Find its derivative at $x = e^{\\pi/4}$:\n\n```latex\n\\frac{d}{dx}f^{-1}(x) \\bigg|_{x=e^{\\pi/4}}\n```"
+  },
+  {
+    "id": "2-a",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.2 (a) - Limit at Infinity\n\nEvaluate the following limit or show it does NOT exist.\n\n```latex\n\\lim_{x \\to \\infty} \\frac{2\\sin(x^5)}{x^4+1}\n```"
+  },
+  {
+    "id": "2-b",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.2 (b) - Logarithmic Limit\n\nEvaluate the following limit or show it does NOT exist.\n\n```latex\n\\lim_{x \\to \\infty} [\\ln(x^2+1) - \\ln(x^2-1)]\n```"
+  },
+  {
+    "id": "2-c",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.2 (c) - One-sided Limit\n\nEvaluate the following limit or show it does NOT exist.\n\n```latex\n\\lim_{x \\to 2} \\frac{x^2-4}{3x|x-2|}\n```"
+  },
+  {
+    "id": "2-d",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.2 (d) - Derivative Definition\n\nEvaluate the following limit using the definition of derivative.\n\n```latex\n\\lim_{x \\to 0} \\frac{\\cos x - e^x}{x}\n```"
   },
   {
     "id": "3",
@@ -21,10 +63,31 @@
     "content": "## Q.3 (10 pts) Continuity\n\nFind the number $a \\neq 0$ such that the function is **continuous everywhere**.\n\n```latex\nf(x) = \\begin{cases} \\frac{\\sin(ax)}{x} + \\cos x & \\text{for } x < 0 \\\\\\\\ x^2 + 3e^{2x} & \\text{for } x \\ge 0 \\end{cases}\n```"
   },
   {
-    "id": "4",
+    "id": "4-a",
     "year": "2017",
     "term": "Midterm 1",
     "course_code": "MATH-119",
-    "content": "## Q.4 (20 pts) Derivatives\n\n**(a)** By definition, the limit below represents the derivative of a function $f(x)$ at $x_0$. Find $f(x)$ and $x_0$.\n\n```latex\n\\lim_{h \\to 0} \\frac{\\cosh - e^{h^2} + h^5}{h}\n```\n\n**(b)** Calculate $y'$ at the point $(1, -1)$ using implicit differentiation:\n\n```latex\nx^4 + y^4 + 2xy = 0\n```\n\n**(c)** Find $f'(x)$ if:\n\n```latex\nf(x) = (\\cos x + 3)^{\\sqrt{2+\\sin x}}\n```\n\n**(d)** Find $f'(x)$ if:\n\n```latex\nf(x) = 1 + \\arcsin(x^2) + 3^x + \\log_2 x\n```"
+    "content": "## Q.4 (a) - Limit Definition\n\nBy definition, the limit below represents the derivative of a function $f(x)$ at $x_0$. Find $f(x)$ and $x_0$.\n\n```latex\n\\lim_{h \\to 0} \\frac{\\cosh - e^{h^2} + h^5}{h}\n```"
+  },
+  {
+    "id": "4-b",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.4 (b) - Implicit Differentiation\n\nCalculate $y'$ at the point $(1, -1)$ using implicit differentiation:\n\n```latex\nx^4 + y^4 + 2xy = 0\n```"
+  },
+  {
+    "id": "4-c",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.4 (c) - Logarithmic Differentiation\n\nFind $f'(x)$ if:\n\n```latex\nf(x) = (\\cos x + 3)^{\\sqrt{2+\\sin x}}\n```"
+  },
+  {
+    "id": "4-d",
+    "year": "2017",
+    "term": "Midterm 1",
+    "course_code": "MATH-119",
+    "content": "## Q.4 (d) - Derivatives\n\nFind $f'(x)$ if:\n\n```latex\nf(x) = 1 + \\arcsin(x^2) + 3^x + \\log_2 x\n```"
   }
 ]
